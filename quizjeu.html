@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Star Wars</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Quiz Star Wars</h1>
+
+    <button onclick="changerLangue('fr')">🇫🇷</button>
+    <button onclick="changerLangue('en')">🇬🇧</button>
+
+    <p id="timer">Temps : 0 s</p>
+
+    <div id="quiz">
+        <div class="question" id="question"></div>
+        <div id="reponses"></div>
+        <button onclick="suivant()">Suivant</button>
+    </div>
+
+    <p id="resultat"></p>
+
+    <script src="script.js"></script>
+  <footer>
+      <a href="quizaccueil.html">
+        <button>retour à l'acceuil</button>
+    </a>
+    <p>© 2026 Kit inc. - Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>

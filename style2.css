@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00008b;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+button {
+    background-color: purple;
+    border: none;
+    color: #00008b;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0000ff;
+    color: #000000;
+}
+.languebtn {
+    background-color: white;
+    color: #000000;
+}
+.languebtn:hover {
+background-color: #000000;
+color: white;
+}
