@@ -1,3 +1,3 @@
 prototype 
 
-v0.00.01 = lancement
+v0.00.1 = lancement
